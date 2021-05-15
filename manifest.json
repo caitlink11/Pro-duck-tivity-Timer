@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Pro-duck-tivity Timer",
+    "description": "This extension provides a duck-themed productivity timer.",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+
+    "permissions": [
+        "storage"
+     ],
+
+     "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/sweetalert2@11; object-src 'self'"
+  }

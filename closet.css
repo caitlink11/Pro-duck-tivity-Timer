@@ -1,0 +1,69 @@
+body {
+    font-family: "Itim", cursive;
+    margin: 20px;
+    background-color: #eaf6ff;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    clear: left;
+}
+
+.container {
+    height: 250px;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+#homeIcon {
+    height: 20px;
+    margin: 0px 0px 10px 0px;
+    float: left;
+}
+
+#coins {
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+h2 {
+    margin: 10px 0px 0px 0px;
+}
+
+h3 {
+    margin: 0px;
+    text-align: center;
+}
+
+.itemContainer {
+    height: 120px;
+    width: 70px;
+    margin: 5px;
+    display:inline-block;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#topHatIcon {
+    width: 30px;
+    padding: 5px;
+}
+
+#buyTopHat {
+    font-family: "Itim", cursive;
+    background-color: #c6e6be;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+#buyTopHat:hover {
+    background-color: #a5d49a;
+}
+
+#buyTopHat:disabled {
+    background-color: #6a8b63;
+}

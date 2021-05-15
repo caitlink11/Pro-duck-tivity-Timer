@@ -1,0 +1,87 @@
+body {
+    font-family: "Itim", cursive;
+    margin: 20px;
+    background-color: #eaf6ff;
+}
+
+h1 {
+    margin: 0px 0px 0px 0px;
+}
+
+.container {
+    height: 250px;
+    width: 300px;
+}
+
+#closet {
+    width: 20px;
+}
+
+#closetButton {
+    border: none;
+    background-color: #eaf6ff;
+    padding: 5px;
+    float: right;
+    cursor: pointer;
+}
+
+#closetButton:disabled {
+    cursor: not-allowed;
+}
+
+#coins {
+    clear: right;
+    font-size: 15px;
+}
+
+#duck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+}
+
+#time {
+    font-size: 40px;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#startEnd, #cancel {
+    background-color: #c6e6be;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+#startEnd:hover {
+    background-color: #a5d49a;
+}
+
+#cancel:hover {
+    background-color: #ffb7ae;
+}
+
+#coins {
+    text-align: right;;
+}
+
+.swal2-title {
+    font-size: 20px;
+}
+
+.swal2-styled.swal2-cancel {
+    font-family: "Itim", cursive;
+    font-size: 15px;
+}
+
+.swal2-styled.swal2-confirm {
+    font-family: "Itim", cursive;
+    font-size: 15px;
+}

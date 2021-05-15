@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Closet</title>
+    <link rel = "stylesheet" href = "closet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src = "closet.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <a href = "popup.html">
+        <img id = "homeIcon" src = "home.png" alt = "Home">
+    </a>
+    <h1>My Closet</h1>
+    
+    <div class = "container">
+        <div id = "coins">Coins:</div>
+        <p>Select your outfit of the day!</p>
+        <input type = "radio" id = "plain" name = "outfit" value ="plain">
+        <label for = "plain">No Accessory</label><br>
+        <input type = "radio" id = "sunHat" name ="outfit" value = "sunHat">
+        <label for = "sunHat" id = "sunHatLabel">Sun Hat</label><br>
+        <input type = "radio" id = "crown" name = "outfit" value = "crown">
+        <label for = "crown" id = "crownLabel">Crown</label><br>
+        <input type = "radio" id = "topHat" name = "outfit" value = "topHat">
+        <label for = "topHat" id = "topHatLabel">Top Hat</label>
+
+        <h2>Store:</h2>
+        <div class = "itemContainer">
+          <h3>Top Hat</h3>
+          <p>10 coins</p>
+          <img id = "topHatIcon" src = "topHat.png" alt = "Top Hat">
+          <button id = "buyTopHat">Buy</button>
+        </div>
+    </div>
+  </body>
+</html>
