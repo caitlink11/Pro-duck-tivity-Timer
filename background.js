@@ -47,7 +47,7 @@ function endSession() {
 // startEnd is called when the Start/End button is clicked
 function startEnd() {
     if (!started) {
-        interval = window.setInterval(updateTime, 10);
+        interval = window.setInterval(updateTime, 1000);
         chrome.runtime.sendMessage({cmd:"start"})
         started = true;
     } else {
