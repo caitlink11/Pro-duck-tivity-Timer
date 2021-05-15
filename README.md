@@ -24,7 +24,7 @@ Head to your closet afterwards to change your duck's outfit or buy new ones:
 <img src = "https://user-images.githubusercontent.com/29318811/118349836-2a1ca280-b521-11eb-9faa-3a45df51f1ae.png" width="300">
 
 ## Libraries Used
-This project is created with:
+This project was created using:
 * [Animate.css](https://animate.style/) v4
 * [SweetAlert2](https://www.jsdelivr.com/package/npm/sweetalert2) v11.0.0
 
