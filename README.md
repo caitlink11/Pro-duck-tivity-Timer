@@ -31,6 +31,6 @@ This project is created with:
 ## Setup
 To run this project:
 1. Download the .zip file and unzip its contents.
-2. Go to [chrome://extensions](chrome://extensions) and click the "Load Unpacked" button.
+2. Go to chrome://extensions and click the "Load Unpacked" button.
 3. Select the unzipped folder.
 4. You're good to go! Be sure to pin the extension to Chrome for easy access to the Pro-duck-tivity Timer.
