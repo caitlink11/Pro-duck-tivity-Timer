@@ -9,7 +9,7 @@ This is a duck-themed productivity timer Chrome Extension created with HTML/CSS 
 * [Image Sources](#image-sources)
 
 ## General Info
-This Chrome Extension provides a duck-themed productivity timer to make studying fun! Your duck friend will keep you motivated, and you can customize his appearance with different outifts. Earn coins for tracking study sessions and spend them in the store to receive more accessories for your duck to wear!
+This Chrome Extension provides a duck-themed productivity timer to make studying fun! Your duck friend will keep you motivated, and you can customize their appearance with different outifts. Earn coins for tracking study sessions and spend them in the store to receive more accessories for your duck to wear!
 
 ## Screenshots
 Start the timer when you sit down to study:
